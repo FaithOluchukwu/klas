@@ -11,7 +11,7 @@ const CreateSection = () => {
   return (
     <div>
       <div>
-        <p className=' flex gap-1 items-center text-blue-600  px-10 py-10'><IoIosArrowBack />Back</p>
+        <p className=' flex gap-1 items-center text-blue-600  px-10 py-10 cursor-pointer'><IoIosArrowBack />Back</p>
         <div className='flex flex-col justify-center items-center'> 
         <h1 className='text-4xl py-8 text-black font-bold'>What kind of content is it?</h1>
       <h7 className=' text-slate-400 mb-10'>Choose the type of content you would like to create</h7>
