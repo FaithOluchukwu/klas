@@ -21,14 +21,14 @@ const CreateSection = () => {
               <div className=' mt-10 ml-16'><Image src={Image1} alt='' width={100}/></div>
               <h3 className='text-black ml-16'>Recorded courses</h3>
               <p className='text-slate-400 mb-8 ml-6'>Upload and sell your courses</p>
-              <button className='bg-white ml-16 text-blue-600 py-2 px-10  text-bold rounded-lg border-2 border-blue-600'>Start</button>
+              <button className='bg-white hover:bg-blue-700 hover:text-white  ml-16 text-blue-600 py-2 px-10  text-bold rounded-lg border-2 border-blue-600'>Start</button>
             </div> 
 
             <div className='p-14 shadow-md border-2 border-zinc-300  bg-white rounded-lg'>
               <div className=' ml-10 '><Image src={Image2} alt='' width={125}/></div>
               <h3 className='text-black ml-20'>Ebooks</h3>
               <p className='text-slate-400 mb-8 ml-6 '>Sell interactive ebooks  </p>
-              <button className='bg-white ml-10 text-blue-600 py-2 px-10  text-bold rounded-lg border-2 border-blue-600'>Start</button>
+              <button className='bg-white hover:bg-blue-700 hover:text-white  ml-10 text-blue-600  py-2 px-10   text-bold rounded-lg border-2 border-blue-600 '>Start</button>
             </div>  
 
 
@@ -36,7 +36,7 @@ const CreateSection = () => {
               <div className=' mt-10 ml-16'><Image src={Image3} alt='' width={100}/></div>
               <h3 className='text-black ml-16'> Live classes</h3>
               <p className='text-slate-400 mb-8 ml-6'>Host immersive & fun classes</p>
-              <button className='bg-white ml-16 text-blue-600  py-2 px-10  text-bold rounded-lg border-2 border-blue-600'>Start</button>
+              <button className='bg-white  hover:bg-blue-700 hover:text-white   ml-16 text-blue-600  py-2 px-10  text-bold rounded-lg border-2 border-blue-600 '>Start</button>
             </div>
 
            </div>
